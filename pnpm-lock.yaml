@@ -16,7 +16,7 @@ dependencies:
     version: 2.6.51(antd@5.15.3)(rc-field-form@1.43.0)(react-dom@18.2.0)(react@18.2.0)
   '@doubleshot/nest-electron':
     specifier: ^0.2.5
-    version: 0.2.5(@nestjs/common@10.3.3)(@nestjs/core@10.3.3)(@nestjs/microservices@10.3.3)(electron@29.1.4)(rxjs@7.8.1)
+    version: 0.2.5(@nestjs/common@10.3.3)(@nestjs/core@10.3.3)(@nestjs/microservices@10.3.3)(electron@29.1.5)(rxjs@7.8.1)
   '@ivliu/react-offscreen':
     specifier: ^1.0.7
     version: 1.0.7(react@18.2.0)
@@ -155,8 +155,8 @@ devDependencies:
     specifier: ^4.1.0
     version: 4.1.0
   electron:
-    specifier: 29.1.4
-    version: 29.1.4
+    specifier: 29.1.5
+    version: 29.1.5
   electron-builder:
     specifier: 24.13.3
     version: 24.13.3(electron-builder-squirrel-windows@24.13.3)
@@ -201,7 +201,7 @@ devDependencies:
     version: 5.1.6(@types/node@20.11.30)
   vite-plugin-doubleshot:
     specifier: 0.0.13
-    version: 0.0.13(electron-builder@24.13.3)(electron@29.1.4)(postcss@8.4.36)(typescript@5.4.2)(vite@5.1.6)
+    version: 0.0.13(electron-builder@24.13.3)(electron@29.1.5)(postcss@8.4.36)(typescript@5.4.2)(vite@5.1.6)
 
 packages:
 
@@ -942,7 +942,7 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@doubleshot/builder@0.0.11(electron-builder@24.13.3)(electron@29.1.4)(postcss@8.4.36)(typescript@5.4.2):
+  /@doubleshot/builder@0.0.11(electron-builder@24.13.3)(electron@29.1.5)(postcss@8.4.36)(typescript@5.4.2):
     resolution: {integrity: sha512-dlPnJ2SMxNhwdnijTVaISBQMT4zzM7pVUZivRqoFVGC68omcoceQQWOV14D5bicOCMZtjJ1HEg7y5hDql3/Ohw==}
     engines: {node: '>=14.0.0'}
     hasBin: true
@@ -960,7 +960,7 @@ packages:
       cac: 6.7.14
       check-package-exists: 1.1.3
       colorette: 2.0.20
-      electron: 29.1.4
+      electron: 29.1.5
       electron-builder: 24.13.3(electron-builder-squirrel-windows@24.13.3)
       esbuild: 0.18.11
       joycon: 3.1.1
@@ -976,7 +976,7 @@ packages:
       - typescript
     dev: true
 
-  /@doubleshot/nest-electron@0.2.5(@nestjs/common@10.3.3)(@nestjs/core@10.3.3)(@nestjs/microservices@10.3.3)(electron@29.1.4)(rxjs@7.8.1):
+  /@doubleshot/nest-electron@0.2.5(@nestjs/common@10.3.3)(@nestjs/core@10.3.3)(@nestjs/microservices@10.3.3)(electron@29.1.5)(rxjs@7.8.1):
     resolution: {integrity: sha512-3klwsIvw1Di/Kvu/VmFpiTSc2Wy9lJWhoyz0AxpJLzGbNF1FrtEy+V3W4i6GfLwvJQusQzh4Vi7a1nrHg1yp4w==}
     peerDependencies:
       '@nestjs/common': '>=8.0.0'
@@ -988,7 +988,7 @@ packages:
       '@nestjs/common': 10.3.3(class-validator@0.14.1)(reflect-metadata@0.2.1)(rxjs@7.8.1)
       '@nestjs/core': 10.3.3(@nestjs/common@10.3.3)(@nestjs/microservices@10.3.3)(reflect-metadata@0.2.1)(rxjs@7.8.1)
       '@nestjs/microservices': 10.3.3(@nestjs/common@10.3.3)(@nestjs/core@10.3.3)(cache-manager@5.4.0)(reflect-metadata@0.2.1)(rxjs@7.8.1)
-      electron: 29.1.4
+      electron: 29.1.5
       rxjs: 7.8.1
     dev: false
 
@@ -1012,7 +1012,7 @@ packages:
       fs-extra: 8.1.0
       got: 11.8.5
       progress: 2.0.3
-      semver: 6.3.0
+      semver: 6.3.1
       sumchecker: 3.0.1
     optionalDependencies:
       global-agent: 3.0.0
@@ -4406,8 +4406,8 @@ packages:
   /electron-to-chromium@1.4.717:
     resolution: {integrity: sha512-6Fmg8QkkumNOwuZ/5mIbMU9WI3H2fmn5ajcVya64I5Yr5CcNmO7vcLt0Y7c96DCiMO5/9G+4sI2r6eEvdg1F7A==}
 
-  /electron@29.1.4:
-    resolution: {integrity: sha512-IWXys0SqgmIfrqXusUGQC0gGG7CCqA5vfmNsUMj8dFkAnK3lisKyjSESStWlrsste/OX/AAC5wsVlf23reUNnw==}
+  /electron@29.1.5:
+    resolution: {integrity: sha512-1uWGRw/ffA62lcrklxGUgVxVtOHojsg/nwsYr+/F9cVjipZJn8iPv/ABGIIexhmUqWcho8BqfTJ4osCBa29gBg==}
     engines: {node: '>= 12.20.55'}
     hasBin: true
     requiresBuild: true
@@ -4442,7 +4442,7 @@ packages:
     resolution: {integrity: sha512-O+QWCviPNSSLAD9Ucn8Awv+poAkqn3T1XY5/N7kR7rQO9yfSGWkYZDwpJ+iKF7B8rxaQKWngSqACpgzeapSyoA==}
     engines: {node: '>=10.13.0'}
     dependencies:
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       tapable: 2.2.1
     dev: false
 
@@ -4611,7 +4611,7 @@ packages:
   /es-shim-unscopables@1.0.2:
     resolution: {integrity: sha512-J3yBRXCzDu4ULnQwxyToo/OjdMx6akgVC7K6few0a7F/0wLtmKKN7I73AH5T2836UuXRqN7Qg+IIUw/+YJksRw==}
     dependencies:
-      hasown: 2.0.0
+      hasown: 2.0.2
     dev: true
 
   /es-to-primitive@1.2.1:
@@ -5192,7 +5192,7 @@ packages:
     resolution: {integrity: sha512-yhlQgA6mnOJUKOsRUFsgJdQCvkKhcz8tlZG5HBQfReYZy46OwLcY+Zia0mtdHsOo9y/hP+CxMN0TU9QxoOtG4g==}
     engines: {node: '>=6 <7 || >=8'}
     dependencies:
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       jsonfile: 4.0.0
       universalify: 0.1.2
 
@@ -5201,7 +5201,7 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       at-least-node: 1.0.0
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       jsonfile: 6.1.0
       universalify: 2.0.0
     dev: true
@@ -5259,24 +5259,15 @@ packages:
     engines: {node: '>=18'}
     dev: true
 
-  /get-intrinsic@1.2.2:
-    resolution: {integrity: sha512-0gSo4ml/0j98Y3lngkFEot/zhiCeWsbYIlZ+uZOVgzLyLaUw7wxUL+nCTP0XJvJg1AXulJRI3UJi8GsbDuxdGA==}
-    requiresBuild: true
-    dependencies:
-      function-bind: 1.1.2
-      has-proto: 1.0.1
-      has-symbols: 1.0.3
-      hasown: 2.0.0
-
   /get-intrinsic@1.2.4:
     resolution: {integrity: sha512-5uYhsJH8VJBTv7oslg4BznJYhDoRI6waYCxMmCdnTrcCrHA/fCFKoTFz2JKKE0HdDFUF7/oQuhzumXJK7paBRQ==}
     engines: {node: '>= 0.4'}
     dependencies:
       es-errors: 1.3.0
       function-bind: 1.1.2
-      has-proto: 1.0.1
+      has-proto: 1.0.3
       has-symbols: 1.0.3
-      hasown: 2.0.0
+      hasown: 2.0.2
 
   /get-pkg-repo@4.2.1:
     resolution: {integrity: sha512-2+QbHjFRfGB74v/pYWjd5OhU3TDIC2Gv/YKUTk/tCvAz0pkn/Mz6P3uByuBimLOcPvN2jYdScl3xGFSrx0jEcA==}
@@ -5494,7 +5485,7 @@ packages:
     resolution: {integrity: sha512-d65bNlIadxvpb/A2abVdlqKqV563juRnZ1Wtk6s1sIR8uNsXR70xqIzVqxVf1eTqDunwT2MkczEeaezCKTZhwA==}
     requiresBuild: true
     dependencies:
-      get-intrinsic: 1.2.2
+      get-intrinsic: 1.2.4
 
   /got@11.8.5:
     resolution: {integrity: sha512-o0Je4NvQObAuZPHLFoRSkdG2lTgtcynqymzg2Vupdx6PorhaT5MCbIyXG6d4D94kk8ZG57QeosgdiqfJWhEhlQ==}
@@ -5517,7 +5508,6 @@ packages:
 
   /graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
-    dev: true
 
   /graphemer@1.4.0:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
@@ -5563,15 +5553,9 @@ packages:
     dependencies:
       es-define-property: 1.0.0
 
-  /has-proto@1.0.1:
-    resolution: {integrity: sha512-7qE+iP+O+bgF9clE5+UoBFzE65mlBiVj3tKCrlNQ0Ogwm0BjpT/gK4SlLYDMybDh5I3TCTKnPPa0oMG7JDYrhg==}
-    engines: {node: '>= 0.4'}
-    requiresBuild: true
-
   /has-proto@1.0.3:
     resolution: {integrity: sha512-SJ1amZAJUiZS+PhsVLf5tGydlaVB8EdFpaSO4gmiUKUOxk8qzn5AIy4ZeJUmh22znIdk/uMAUT2pl3FxzVUH+Q==}
     engines: {node: '>= 0.4'}
-    dev: true
 
   /has-symbols@1.0.3:
     resolution: {integrity: sha512-l3LCuF6MgDNwTDKkdYGEihYjt5pRPbEg46rtlmnSPlUbgmB8LOIrKJbYYFBSbnPaJexMKtiPO8hmeRjRz2Td+A==}
@@ -5597,13 +5581,13 @@ packages:
     requiresBuild: true
     dependencies:
       function-bind: 1.1.2
+    dev: true
 
   /hasown@2.0.2:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
     engines: {node: '>= 0.4'}
     dependencies:
       function-bind: 1.1.2
-    dev: true
 
   /highlight.js@10.7.3:
     resolution: {integrity: sha512-tzcUFauisWKNHaRkN4Wjl/ZA07gENAjFl3J/c480dprkGTg5EQstgaNFqBfUqCq54kZRIEcreTsAgF/m2quD7A==}
@@ -6215,14 +6199,14 @@ packages:
   /jsonfile@4.0.0:
     resolution: {integrity: sha512-m6F1R3z8jjlf2imQHS2Qez5sjKWQzbuuhuJ/FKYFRZvPE3PuHcSMVZzfsLhGVOkfd20obL5SWEBew5ShlquNxg==}
     optionalDependencies:
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
 
   /jsonfile@6.1.0:
     resolution: {integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==}
     dependencies:
       universalify: 2.0.0
     optionalDependencies:
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
 
   /jsonparse@1.3.1:
     resolution: {integrity: sha512-POQXvpdL69+CluYsillJ7SUhKvytYjW9vG/GKpnf+xP8UWgYEM/RaMzHHofbALDiKbbP1W8UEYmgGl39WkPZsg==}
@@ -6329,7 +6313,7 @@ packages:
     resolution: {integrity: sha512-Kx8hMakjX03tiGTLAIdJ+lL0htKnXjEZN6hk/tozf/WOuYGdZBJrZ+rCJRbVCugsjB3jMLn9746NsQIf5VjBMw==}
     engines: {node: '>=4'}
     dependencies:
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       parse-json: 4.0.0
       pify: 3.0.0
       strip-bom: 3.0.0
@@ -8418,14 +8402,9 @@ packages:
     hasBin: true
     dev: true
 
-  /semver@6.3.0:
-    resolution: {integrity: sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==}
-    hasBin: true
-
   /semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
     hasBin: true
-    dev: true
 
   /semver@7.5.4:
     resolution: {integrity: sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==}
@@ -9491,13 +9470,13 @@ packages:
     dev: true
     optional: true
 
-  /vite-plugin-doubleshot@0.0.13(electron-builder@24.13.3)(electron@29.1.4)(postcss@8.4.36)(typescript@5.4.2)(vite@5.1.6):
+  /vite-plugin-doubleshot@0.0.13(electron-builder@24.13.3)(electron@29.1.5)(postcss@8.4.36)(typescript@5.4.2)(vite@5.1.6):
     resolution: {integrity: sha512-AdeF/4fePxA5rHMGrc2Q2FDtihNcjnWD/YNZTmr2qF8380W9a+2fcDreCVPkTBiwhJcWPUM0nDmQ4ojQgSFggw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       vite: '>=2.0.0'
     dependencies:
-      '@doubleshot/builder': 0.0.11(electron-builder@24.13.3)(electron@29.1.4)(postcss@8.4.36)(typescript@5.4.2)
+      '@doubleshot/builder': 0.0.11(electron-builder@24.13.3)(electron@29.1.5)(postcss@8.4.36)(typescript@5.4.2)
       vite: 5.1.6(@types/node@20.11.30)
     transitivePeerDependencies:
       - '@swc/helpers'
@@ -9571,7 +9550,7 @@ packages:
     engines: {node: '>=10.13.0'}
     dependencies:
       glob-to-regexp: 0.4.1
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
     dev: false
 
   /wcwidth@1.0.1:
@@ -9622,7 +9601,7 @@ packages:
       eslint-scope: 5.1.1
       events: 3.3.0
       glob-to-regexp: 0.4.1
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       json-parse-even-better-errors: 2.3.1
       loader-runner: 4.3.0
       mime-types: 2.1.35
