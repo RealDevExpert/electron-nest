@@ -91,7 +91,7 @@ dependencies:
     version: 18.2.0
   react-countup:
     specifier: ^6.5.1
-    version: 6.5.1(react@18.2.0)
+    version: 6.5.3(react@18.2.0)
   react-dom:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
@@ -7889,8 +7889,8 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /react-countup@6.5.1(react@18.2.0):
-    resolution: {integrity: sha512-G+7zS3tzFn8azsj8M9FEnWKvB1s0euoGX7GOP8cFVZPXpP5MVh7zOun4/F/TM2RNOBEl2ApJrPuQOhyZ78s0AA==}
+  /react-countup@6.5.3(react@18.2.0):
+    resolution: {integrity: sha512-udnqVQitxC7QWADSPDOxVWULkLvKUWrDapn5i53HE4DPRVgs+Y5rr4bo25qEl8jSh+0l2cToJgGMx+clxPM3+w==}
     peerDependencies:
       react: '>= 16.3.0'
     dependencies:
