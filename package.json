@@ -79,7 +79,7 @@
     "postcss": "^8.4.36",
     "prettier": "^3.2.5",
     "rimraf": "5.0.5",
-    "simple-git-hooks": "2.10.0",
+    "simple-git-hooks": "2.11.1",
     "standard-version": "^9.5.0",
     "tailwind-scrollbar": "^3.1.0",
     "tailwindcss": "^3.4.1",
