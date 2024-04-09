@@ -8,6 +8,7 @@
   },
   "description": "导热系数系统控制",
   "main": "dist/main/index.js",
+  "packageManager": "pnpm@8.15.6",
   "scripts": {
     "dev": "vite",
     "debug": "vite -- --dsb-debug",
