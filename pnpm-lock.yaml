@@ -79,7 +79,7 @@ dependencies:
     version: 4.0.4(@nestjs/common@10.3.7)(typeorm@0.3.20)
   plotly.js-dist-min:
     specifier: ^2.30.1
-    version: 2.30.1
+    version: 2.31.0
   plotly.js-locales:
     specifier: ^2.30.1
     version: 2.30.1
@@ -6226,7 +6226,7 @@ packages:
     dependencies:
       universalify: 2.0.0
     optionalDependencies:
-      graceful-fs: 4.2.11
+      graceful-fs: 4.2.10
 
   /jsonparse@1.3.1:
     resolution: {integrity: sha512-POQXvpdL69+CluYsillJ7SUhKvytYjW9vG/GKpnf+xP8UWgYEM/RaMzHHofbALDiKbbP1W8UEYmgGl39WkPZsg==}
@@ -7193,8 +7193,8 @@ packages:
       xmlbuilder: 15.1.1
     dev: true
 
-  /plotly.js-dist-min@2.30.1:
-    resolution: {integrity: sha512-xWLni6EpBDwG/EdjCBTu+GK1Asuqswgh+YC77t0UAxa5OFFgpjYkVuvozZmkWqT9TKpvzjxkK4LLGv5Rn+yo7Q==}
+  /plotly.js-dist-min@2.31.0:
+    resolution: {integrity: sha512-FFP8muGsGhOaH3USCVdyDY0FwEqQkX2VvQNVZz9N3gwAEcKabyS8965YSONtVAOP4tXMnBoJl/jGdnMtC4cgkA==}
     dev: false
 
   /plotly.js-locales@2.30.1:
