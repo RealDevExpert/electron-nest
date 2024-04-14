@@ -112,10 +112,10 @@ dependencies:
     version: 7.8.1
   sql.js:
     specifier: ^1.10.2
-    version: 1.10.2
+    version: 1.10.3
   typeorm:
     specifier: ^0.3.20
-    version: 0.3.20(sql.js@1.10.2)
+    version: 0.3.20(sql.js@1.10.3)
   winston:
     specifier: ^3.12.0
     version: 3.13.0
@@ -1888,7 +1888,7 @@ packages:
       '@nestjs/core': 10.3.7(@nestjs/common@10.3.7)(@nestjs/microservices@10.3.7)(reflect-metadata@0.2.2)(rxjs@7.8.1)
       reflect-metadata: 0.2.2
       rxjs: 7.8.1
-      typeorm: 0.3.20(sql.js@1.10.2)
+      typeorm: 0.3.20(sql.js@1.10.3)
       uuid: 9.0.1
     dev: false
 
@@ -6746,7 +6746,7 @@ packages:
       typeorm: ^0.3.0
     dependencies:
       '@nestjs/common': 10.3.7(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1)
-      typeorm: 0.3.20(sql.js@1.10.2)
+      typeorm: 0.3.20(sql.js@1.10.3)
     dev: false
 
   /node-abort-controller@3.1.1:
@@ -8665,8 +8665,8 @@ packages:
     requiresBuild: true
     optional: true
 
-  /sql.js@1.10.2:
-    resolution: {integrity: sha512-jnKFtdHxuVUNgu1vHwFoTjjwfTuVDVqzGpw7H05Zq3YMNMDOpLFyFGvpgTRIQGd/mqcYntuMy7iygYCytD62jQ==}
+  /sql.js@1.10.3:
+    resolution: {integrity: sha512-H46aWtQkdyjZwFQgraUruy5h/DyJBbAK3EA/WEMqiqF6PGPfKBSKBj/er3dVyYqVIoYfRf5TFM/loEjtQIrqJg==}
     dev: false
 
   /stack-trace@0.0.10:
@@ -9305,7 +9305,7 @@ packages:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
     dev: true
 
-  /typeorm@0.3.20(sql.js@1.10.2):
+  /typeorm@0.3.20(sql.js@1.10.3):
     resolution: {integrity: sha512-sJ0T08dV5eoZroaq9uPKBoNcGslHBR4E4y+EBHs//SiGbblGe7IeduP/IH4ddCcj0qp3PHwDwGnuvqEAnKlq/Q==}
     engines: {node: '>=16.13.0'}
     hasBin: true
@@ -9375,7 +9375,7 @@ packages:
       mkdirp: 2.1.6
       reflect-metadata: 0.2.2
       sha.js: 2.4.11
-      sql.js: 1.10.2
+      sql.js: 1.10.3
       tslib: 2.6.2
       uuid: 9.0.1
       yargs: 17.7.2
