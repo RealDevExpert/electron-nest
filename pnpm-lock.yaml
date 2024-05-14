@@ -202,8 +202,8 @@ importers:
         specifier: 5.2.11
         version: 5.2.11(@types/node@20.12.12)(terser@5.29.2)
       vite-plugin-doubleshot:
-        specifier: 0.0.13
-        version: 0.0.13(electron-builder@24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3)))(electron@30.0.4)(postcss@8.4.38)(typescript@5.4.5)(vite@5.2.11(@types/node@20.12.12)(terser@5.29.2))
+        specifier: 0.0.14
+        version: 0.0.14(electron-builder@24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3)))(electron@30.0.4)(postcss@8.4.38)(typescript@5.4.5)(vite@5.2.11(@types/node@20.12.12)(terser@5.29.2))
 
 packages:
 
@@ -5194,8 +5194,8 @@ packages:
     resolution: {integrity: sha512-veufcmxri4e3XSrT0xwfUR7kguIkaxBeosDg00yDWhk49wdwkSUrvvsm7nc75e1PUyvIeZj6nS8VQRYz2/S4Xg==}
     engines: {node: '>=0.6.0'}
 
-  vite-plugin-doubleshot@0.0.13:
-    resolution: {integrity: sha512-AdeF/4fePxA5rHMGrc2Q2FDtihNcjnWD/YNZTmr2qF8380W9a+2fcDreCVPkTBiwhJcWPUM0nDmQ4ojQgSFggw==}
+  vite-plugin-doubleshot@0.0.14:
+    resolution: {integrity: sha512-7ldaBMuAaRqUOKFTFMle0GZJN333BFFYCJVxgnwvsJnpWUoQdN5TF+G7BtVFiX4x87vNFnkDN1qUbYCmHTs6xw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       vite: '>=2.0.0'
@@ -10969,7 +10969,7 @@ snapshots:
       extsprintf: 1.4.1
     optional: true
 
-  vite-plugin-doubleshot@0.0.13(electron-builder@24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3)))(electron@30.0.4)(postcss@8.4.38)(typescript@5.4.5)(vite@5.2.11(@types/node@20.12.12)(terser@5.29.2)):
+  vite-plugin-doubleshot@0.0.14(electron-builder@24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3)))(electron@30.0.4)(postcss@8.4.38)(typescript@5.4.5)(vite@5.2.11(@types/node@20.12.12)(terser@5.29.2)):
     dependencies:
       '@doubleshot/builder': 0.0.11(electron-builder@24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3)))(electron@30.0.4)(postcss@8.4.38)(typescript@5.4.5)
       vite: 5.2.11(@types/node@20.12.12)(terser@5.29.2)

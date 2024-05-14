@@ -86,6 +86,6 @@
     "tailwindcss": "^3.4.1",
     "typescript": "5.4.5",
     "vite": "5.2.11",
-    "vite-plugin-doubleshot": "0.0.13"
+    "vite-plugin-doubleshot": "0.0.14"
   }
 }
