@@ -82,7 +82,7 @@ importers:
         version: 4.0.4(@nestjs/common@10.3.8(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(typeorm@0.3.20(sql.js@1.10.3))
       plotly.js-dist-min:
         specifier: ^2.30.1
-        version: 2.32.0
+        version: 2.33.0
       plotly.js-locales:
         specifier: ^2.30.1
         version: 2.32.0
@@ -3928,8 +3928,8 @@ packages:
     resolution: {integrity: sha512-uysumyrvkUX0rX/dEVqt8gC3sTBzd4zoWfLeS29nb53imdaXVvLINYXTI2GNqzaMuvacNx4uJQ8+b3zXR0pkgQ==}
     engines: {node: '>=10.4.0'}
 
-  plotly.js-dist-min@2.32.0:
-    resolution: {integrity: sha512-UVznwUQVc7NeFih0tnIbvCpxct+Jxt6yxOGTYJF4vkKIUyujvyiTrH+XazglvcXdybFLERMu/IKt6Lhz3+BqMQ==}
+  plotly.js-dist-min@2.33.0:
+    resolution: {integrity: sha512-XTgGZDC/srjk6HvEHu0YmWpSPCDYRBjk8q0bbsCPTpKH961wFXzhWj+qdJ4vMkLQWoO5vhzVAGN9ZlRM3fDQkQ==}
 
   plotly.js-locales@2.32.0:
     resolution: {integrity: sha512-XuUepYb2ouWRsOB5k5ZiHpZ14DmRF1pbvgPYjbSpG+cyzM0nxO9e9Jum3eWZS9sV6TvSdbPHLbH3KfJfFomkbQ==}
@@ -9534,7 +9534,7 @@ snapshots:
       base64-js: 1.5.1
       xmlbuilder: 15.1.1
 
-  plotly.js-dist-min@2.32.0: {}
+  plotly.js-dist-min@2.33.0: {}
 
   plotly.js-locales@2.32.0: {}
 
